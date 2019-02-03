@@ -1,0 +1,30 @@
+div {
+    background-color: aqua;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+img {
+    height: 20vh;
+    width: auto;
+}
+
+.text-center {
+    height: 33%
+}
+
+#logo {
+    color: red;
+    text-align: center;
+    font-weight: 1000;
+}
+
+#search {
+    width: 50%;
+    margin-left: 25%;
+    display: inline;
+}
+
+#searchBtn {
+    margin-top: -5px;
+}

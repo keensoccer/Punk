@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <div class="container">
+
+        <h1 id="name">NAME OF BEER</h1>
+        <p id="date">DATE FIRST BREWED</p>
+        <img id="img">
+        <br>
+        <br>
+        <p id="desc">DESCRIPTION OF BEER</p>
+        <ul id="foodPairings"></ul>
+        <div id="checkbox">
+            <span>
+                <p style="display: inline;">Check this box to show the specs of the beer</p>
+                <input type="checkbox" id="showSpecs" style="display: inline;"></input>
+            </span>
+            <ul id="specs" style="display:none">
+            </ul>
+
+        </div>
+
+        <br>
+
+    </div>
+
+    <a href="#" id="prev" class="controlBtn">&laquo; Previous Beer</a>
+    <a href="#" id="next" class="controlBtn">Next Beer &raquo;</a> 
+
+    <btn id="goBack" class="btn btn-outline-secondary"> Menu </btn> 
+
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>

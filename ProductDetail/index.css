@@ -1,0 +1,58 @@
+body {
+    background-color: goldenrod;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vh;
+    width: auto;
+}
+
+.controlBtn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 1%;
+}
+
+.container {
+    background-color: purple;
+    border-radius: 10%;
+}
+
+#checkbox {
+    background-color: darkorchid;
+    display: block;
+    margin-left: 1%;
+    width: 98%;
+}
+
+#goBack {
+    margin-top: 2%;
+    background-color: darkblue;
+    color: white;
+    margin-left: 85%
+}
+
+#prev {
+    background-color: #f1f1f1;
+    color: black;
+    margin-left: 15%;
+}
+
+#next {
+    background-color: #4CAF50;
+    color: white;
+    margin-left: 50%;
+  }
